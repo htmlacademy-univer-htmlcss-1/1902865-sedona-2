@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Владимир Мильчаков](https://up.htmlacademy.ru/univer-html1/2/user/1902865).
-* Наставник: [Владимир Мильчаков](https://htmlacademy.ru/profile/id98923).
+* Наставник: [Артём Хрушков](https://htmlacademy.ru/profile/id98923).
 
 ---
 
