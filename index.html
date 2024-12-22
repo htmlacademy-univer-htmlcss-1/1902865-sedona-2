@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="./styles/styles.css">
   </head>
   <body>
     <header class="header">
@@ -10,16 +11,16 @@
       <nav class="navigation">
         <img class="navigation__logo" src="./images/logo_sedona.svg" width="140" height="70" alt="Лого блока навигации">
         <ul class="navigation__menu">
-          <li class="navigation__item"><a href="index.html">Главная</a></li>
-          <li><a class="navigation__item" href="#">О Седоне</a></li>
-          <li class="navigation__item"><a href="catalog.html">Гостиницы</a></li>
+          <li class="navigation__item"><a class="link_navigation" href="index.html">Главная</a></li>
+          <li class="navigation__item"><a class="link_navigation" href="#">О Седоне</a></li>
+          <li class="navigation__item"><a class="link_navigation" href="catalog.html">Гостиницы</a></li>
         </ul>
       </nav>
 
       <ul class="header__controls">
         <li class="header__control"><a href="#"><img src="./images/icons/search_icon.svg" alt="Поиск" width="20" height="20"></a></li>
         <li class="header__control"><a href="#"><img src="./images/icons/header_like_icon.svg" alt="Избранное" width="20" height="20"></a></li>
-        <li class="header__control"><a href="#">Хочу сюда!</a></li>
+        <li class="header__control"><a class="btn_style" href="#">Хочу сюда!</a></li>
       </ul>
     </header>
 
@@ -37,24 +38,24 @@
         </header>
 
         <ul class="about__highlights">
-          <li class="about__highlight">
+          <li class="about__highlight about__highlight-aspect">
             <h3 class="about__highlight-title">Настоящий городок</h3>
             <p class="about__highlight-text">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
             <img class="about__highlight-image" src="./images/about_town.jpg" width="800" height="385" alt="Фотография Седоны">
           </li>
-          <li class="about__highlight">
+          <li class="about__highlight about__highlight-bg">
             <h3 class="about__highlight-title">Небольшая площадь</h3>
-            <p class="about__highlight-text">Все достопримечательности находятся очень близко</p>
+            <p class="about__highlight-text about_subtitle">Все достопримечательности находятся очень близко</p>
           </li>
-          <li class="about__highlight">
+          <li class="about__highlight about__highlight-transparent">
             <h3 class="about__highlight-title">Красивая дорога</h3>
-            <p class="about__highlight-text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+            <p class="about__highlight-text about_subtitle">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
           </li>
-          <li class="about__highlight">
+          <li class="about__highlight about__highlight-bg">
             <h3 class="about__highlight-title">Мало туристов</h3>
-            <p class="about__highlight-text">Большинство едет в Гранд Каньон и толпится там</p>
+            <p class="about__highlight-text about_subtitle">Большинство едет в Гранд Каньон и толпится там</p>
           </li>
-          <li class="about__highlight">
+          <li class="about__highlight about__highlight-aspect">
             <h3 class="about__highlight-title">Там есть мост дьявола</h3>
             <p class="about__highlight-text">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
             <img class="about__highlight-image" src="./images/about_canyon.jpg" width="800" height="385" alt="Фотография моста дьявола">
@@ -91,7 +92,7 @@
       <section class="search">
         <h2 class="search__title">Заинтересовались?</h2>
         <p class="search__subtitle">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-        <a class="search__button" href="#">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a>
+        <a class="search__button btn_style" href="#">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a>
       </section>
 
       <section class="subscription">
@@ -99,7 +100,7 @@
         <p class="subscription__subtitle">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="subscription__form" action="https://echo.htmlacademy.ru">
           <input name="email" type="email" placeholder="Ваш e-mail">
-          <button class="subscription__button" type="submit">Подписаться</button>
+          <button class="subscription__button btn_style" type="submit">Подписаться</button>
         </form>
       </section>
     </main>
