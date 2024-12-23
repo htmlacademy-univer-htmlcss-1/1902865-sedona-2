@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="header" data-test="header">
       <nav class="navigation">
         <a class="navigation__logo_link" href="./index.html">
           <img
@@ -49,7 +49,7 @@
       </div>
     </header>
 
-    <main class="main__block">
+    <main class="main__block" data-test="main">
       <section class="hotels">
         <h1 class="hotels__title">Гостиницы Седоны</h1>
 
@@ -76,7 +76,11 @@
           </li>
         </ol>
 
-        <form class="filter" action="https://echo.htmlacademy.ru">
+        <form
+          class="filter"
+          action="https://echo.htmlacademy.ru"
+          data-test="filter"
+        >
           <fieldset class="filter__infrastructure">
             <legend class="filter__legend">Инфраструктура:</legend>
             <ul class="filter-form__list list">
@@ -214,7 +218,7 @@
         </form>
       </section>
 
-      <section class="catalog">
+      <section class="catalog" data-test="catalog">
         <div class="header catalog__header">
           <h2 class="catalog__title">Найдено гостиниц: 38</h2>
           <div class="catalog__block">
@@ -394,7 +398,10 @@
         </nav>
       </section>
 
-      <section class="subscription subscription__catalog-bg">
+      <section
+        class="subscription subscription__catalog-bg"
+        data-test="subscribe"
+      >
         <h2 class="subscription__title subscription__catalog">
           Подпишитесь на рассылку
         </h2>
@@ -411,7 +418,7 @@
       </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer" data-test="footer">
       <section class="footer__social-media">
         <h2 class="visually-hidden">Социальные сети</h2>
         <ul class="footer__social-media-list">

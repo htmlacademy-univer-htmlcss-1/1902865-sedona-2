@@ -1284,7 +1284,6 @@ body {
   color: #756157;
 }
 .modal__input::placeholder {
-  opacity: 60%;
   color: rgba(0, 0, 0, 1);
 }
 .arrival__subtitle {
